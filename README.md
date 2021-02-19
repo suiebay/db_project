@@ -3,13 +3,14 @@
 ## Read books, get points!
 
 ### Project functions and features:
-User:
+User: 
   1. Read books, leave review
   2. Get points for your books and reviews
   3. Show users rating
   4. Authorization
   
 Admin:  
+
   &emsp;5. Upload, Delete, Edit books   
   &emsp;7. Create, Delete, Edit rules
 
