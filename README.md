@@ -8,10 +8,10 @@ User:
   2. Get points for your books and reviews
   3. Show users rating
   4. Authorization
-
-Admin:
-  5. Upload, Delete, Edit books
-  6. Create, Delete, Edit rules
+  
+Admin:  
+  &emsp;5. Upload, Delete, Edit books   
+  &emsp;7. Create, Delete, Edit rules
 
 ### Programming language and database server:
 1. For mobile application we are going to use Flutter framework, because it is cool framework to make app for both platforms IOS and Android, the code is written in Dart.
