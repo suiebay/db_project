@@ -1,2 +1,3 @@
-# db_project
-Database Project
+### Advanced Databse Management Systems
+
+## Read books, get points!
