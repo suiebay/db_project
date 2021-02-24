@@ -2,7 +2,7 @@
 
 **Team name: Docker**  
 **App name: Reads**  
-**Team members: Zhassulan, Adilet, Ilyas  
+**Team members: Zhassulan, Adilet, Ilyas**  
 
 ## Read books, get points!
 
