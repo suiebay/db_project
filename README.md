@@ -59,4 +59,6 @@ Admin:
  
 15. When and how user finishes the book and leave feedback, rating to finished book?
  
-
+ ## UseCase UML Diagram:
+ 
+![alt text](https://github.com/suiebay/db_project/blob/main/Docker-UseCase-UML.png)
