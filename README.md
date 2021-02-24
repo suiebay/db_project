@@ -1,5 +1,9 @@
 # Advanced Databse Management Systems
 
+**Team name: Docker**
+**App name: Reads**
+**Team members: Zhassulan, Adilet, Ilyas
+
 ## Read books, get points!
 
 ### Project goal and its applications
