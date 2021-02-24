@@ -58,6 +58,10 @@ Admin:
 14. How rating of books calculates?
  
 15. When and how user finishes the book and leave feedback, rating to finished book?
+
+## Dataset for the project:
+The idea in our project is users should request for admin user account and password. We have datasets of books, rules, and data of users which are reading a special book, and users profile data. But in **datasets** folder, we can not share user account datas, because its private datas. 
+
  
  ## UseCase UML Diagram:
  
