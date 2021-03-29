@@ -70,7 +70,7 @@ The idea in our project is users should request for admin user account and passw
 
 ## UI implementation and DB connection:  
 
-  #### Application UI was created by Flutter and source code you can see in [user-interface-noble-app](https://github.com/suiebay/db_project/tree/main/user-interface-noble-app) directory, see screenshots below:  
+  * #### Application UI was created by Flutter and source code you can see in [user-interface-noble-app](https://github.com/suiebay/db_project/tree/main/user-interface-noble-app) directory, see screenshots below:  
 
 <img src="https://github.com/suiebay/db_project/blob/main/user-interface-screenshots/IMG_3459.PNG" width="200" height="430"> | <img src="https://github.com/suiebay/db_project/blob/main/user-interface-screenshots/IMG_3460.PNG" width="200" height="430">
 <img src="https://github.com/suiebay/db_project/blob/main/user-interface-screenshots/IMG_3461.PNG" width="200" height="430">
@@ -80,6 +80,6 @@ The idea in our project is users should request for admin user account and passw
 <img src="https://github.com/suiebay/db_project/blob/main/user-interface-screenshots/IMG_3465.PNG" width="200" height="430">
 <img src="https://github.com/suiebay/db_project/blob/main/user-interface-screenshots/IMG_3466.PNG" width="200" height="430">  
 
-  #### Connection to the database is in [application.properties](https://github.com/suiebay/db_project/blob/main/spring-boot-v1-db_project/src/main/resources/application.properties) file of our spring-boot backend, see screenshot below: 
+  * #### Connection to the database is in [application.properties](https://github.com/suiebay/db_project/blob/main/spring-boot-v1-db_project/src/main/resources/application.properties) file of our spring-boot backend, see screenshot below: 
 
 ![alt text](https://github.com/suiebay/db_project/blob/main/user-interface-screenshots/DB%20Connection.png)
