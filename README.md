@@ -83,3 +83,7 @@ The idea in our project is users should request for admin user account and passw
   * #### Connection to the database is in [application.properties](https://github.com/suiebay/db_project/blob/main/spring-boot-v1-db_project/src/main/resources/application.properties) file of our spring-boot backend, see screenshot below: 
 
 ![alt text](https://github.com/suiebay/db_project/blob/main/user-interface-screenshots/DB%20Connection.png)
+
+## SQL to Relational Algebra  
+
+You can see our SQL Queries in RA Operators at the following link: [RA Operators](https://github.com/suiebay/db_project/tree/main/RA%20Operators)
