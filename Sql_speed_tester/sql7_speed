@@ -1,0 +1,14 @@
+
+Query:
+
+     SELECT * FROM reads_books WHERE deleted_at is null and lower(title) = lower('А') and lower(author) = lower('А')
+
+
+ Speed Tests:
+ 1) 0.110 ms
+ 2) 0.167 ms
+ 3) 0.193 ms
+ 4) 0.115 ms
+ 5) 0.101 ms
+
+ Average: 0.1246 ms

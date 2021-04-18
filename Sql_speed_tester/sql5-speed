@@ -1,0 +1,16 @@
+
+Query:
+
+     SELECT * FROM reads_user_book WHERE deleted_at is null and profile_id =:profileId and end_date is null
+
+Speed Tests:
+1)1.211 ms
+2)1.866 ms
+3)2.221 ms
+4)1.590 ms
+5)1.582 ms
+
+
+
+
+ Average: 1.6940000000000002 ms

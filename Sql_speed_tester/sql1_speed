@@ -1,0 +1,30 @@
+
+		
+Query:
+		SELECT * FROM profiles  AS u
+		INNER JOIN users_roles ON u.id = users_roles.user_id
+		INNER JOIN roles ON users_roles.role_id = roles.id
+		WHERE roles.name = :role AND u.deleted_at IS NULL
+		AND (LOWER (u.first_name) LIKE LOWER (:word)
+		OR LOWER (u.last_name) LIKE LOWER(:word)
+		OR LOWER (u.middle_name) LIKE LOWER(:word))
+		ORDER BY u.reads_point DESC, u.id
+     
+
+Speed Tests:
+1)2.085 ms
+2)2.705 ms
+3)1.531 ms
+4)2.785 ms
+5)1.452 ms
+
+
+
+
+ Average: 2.1116 ms
+
+
+
+
+
+

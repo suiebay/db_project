@@ -1,0 +1,17 @@
+
+Query:
+		SELECT * FROM reads_group 
+					AS a WHERE a.deleted_at is NULL
+     
+
+Speed Tests:
+1)0.130 ms
+2)0.067 ms
+3)0.159 ms
+4)0.132 ms
+5)0.090 ms
+
+
+
+
+ Average: 0.1156 ms

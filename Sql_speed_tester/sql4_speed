@@ -1,0 +1,23 @@
+
+Query:
+		SELECT * FROM profiles  AS u
+		INNER JOIN users_roles ON u.id = users_roles.user_id
+		INNER JOIN roles ON users_roles.role_id = roles.id
+		WHERE u.reads_point >= 300 AND u.reads_finished_books >= 20
+		AND u.reads_reviews_number >= 20
+		AND (u.reads_point < 750 OR u.reads_finished_books < 50 OR u.reads_reviews_number < 50)
+		AND roles.name = 'ROLE_STUDENT' AND u.deleted_at IS NULL
+		ORDER BY u.reads_point DESC, u.id
+     
+
+Speed Tests:
+1)0.426 ms
+2)0.537 ms
+3)0.666 ms
+4)0.699 ms
+5)0.945 ms
+
+
+
+
+ Average: 0.6546 ms

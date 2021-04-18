@@ -1,0 +1,18 @@
+
+Query:
+
+     SELECT * FROM profiles AS u
+	 INNER JOIN users_roles ON u.id = users_roles.user_id
+	 INNER JOIN roles ON users_roles.role_id = roles.id
+	 WHERE roles.name = 'ROLE_STUDENT' AND u.deleted_at IS NULL
+	 ORDER BY u.reads_point DESC, u.id
+
+
+ Speed Tests:
+ 1) 1.538 ms
+ 2) 3.086 ms
+ 3) 2.822 ms
+ 4) 1.928 ms
+ 5) 2.134 ms
+
+ Average: 2.3015999999999996 ms
