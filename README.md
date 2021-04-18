@@ -86,7 +86,7 @@ The idea in our project is users should request for admin user account and passw
 
 ## SQL to Relational Algebra  
 
-You can see our SQL Queries in RA Operators at the following link: [RA Operators](https://github.com/suiebay/db_project/tree/main/RA%20Operators)
+You can see our SQL Queries in RA Operators at the following link: [**RA Operators**](https://github.com/suiebay/db_project/tree/main/RA%20Operators)
 
 ## Query Speed Performance
 
