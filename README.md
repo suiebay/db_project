@@ -90,7 +90,7 @@ You can see our SQL Queries in RA Operators at the following link: [**RA Operato
 
 ## Query Speed Performance
 
-Measured and provided the runtime of each project funtionality and the time values in milliseconds: [**Runtime amd Time Values**](https://github.com/suiebay/db_project/tree/main/Sql_speed_tester)  
+Measured and provided the runtime of each project funtionality and the time values in milliseconds: [**Runtime and Time Values**](https://github.com/suiebay/db_project/tree/main/Sql_speed_tester)  
 
 Provided the query optimization and execution times (in ms) for the 7 queries (bonus points). Used PostgreSQL EXPLAIN
 ANALYZE features that allows to see execution plan details including the time spent on the optimization: [**Query Optimization**](https://github.com/suiebay/db_project/tree/main/SQL%20Analyzation)
