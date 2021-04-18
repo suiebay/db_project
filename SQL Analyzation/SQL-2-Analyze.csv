@@ -1,0 +1,6 @@
+"QUERY PLAN"
+"Seq Scan on reads_group a  (cost=0.00..1.47 rows=34 width=138) (actual time=0.029..0.035 rows=34 loops=1)"
+"  Filter: (deleted_at IS NULL)"
+"  Rows Removed by Filter: 13"
+"Planning Time: 0.080 ms"
+"Execution Time: 0.058 ms"

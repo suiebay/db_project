@@ -1,0 +1,6 @@
+"QUERY PLAN"
+"Seq Scan on reads_user_book  (cost=0.00..372.84 rows=36 width=1323) (actual time=0.101..2.061 rows=38 loops=1)"
+"  Filter: ((deleted_at IS NULL) AND (end_date IS NOT NULL) AND (book_id = '03fbffe4-474a-434a-9c18-99ba84804715'::uuid))"
+"  Rows Removed by Filter: 1149"
+"Planning Time: 0.333 ms"
+"Execution Time: 2.106 ms"

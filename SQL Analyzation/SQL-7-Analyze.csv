@@ -1,0 +1,6 @@
+"QUERY PLAN"
+"Seq Scan on reads_books  (cost=0.00..8.48 rows=1 width=1720) (actual time=0.090..0.090 rows=0 loops=1)"
+"  Filter: ((deleted_at IS NULL) AND (lower((title)::text) = 'а'::text) AND (lower((author)::text) = 'а'::text))"
+"  Rows Removed by Filter: 24"
+"Planning Time: 0.399 ms"
+"Execution Time: 0.120 ms"
