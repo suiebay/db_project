@@ -95,7 +95,7 @@ Measured and provided the runtime of each project funtionality and the time valu
 Provided the query optimization and execution times (in ms) for the 7 queries (bonus points). Used PostgreSQL EXPLAIN
 ANALYZE features that allows to see execution plan details including the time spent on the optimization: [**Query Optimization**](https://github.com/suiebay/db_project/tree/main/SQL%20Analyzation)
 
-##Project Final Phase
+## Project Final Phase
 
 Link for project video: [Youtube](https://youtu.be/XE0JrkkX93k)
-
+Project Report: [Project Report](https://github.com/suiebay/db_project/blob/3c4aa3fac4f09bb4fafb01e764cd06e9091f4a94/ProjectFinalReport.pdf)
