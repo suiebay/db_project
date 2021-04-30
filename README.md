@@ -97,5 +97,5 @@ ANALYZE features that allows to see execution plan details including the time sp
 
 ## Project Final Phase
 
-Link for project video: [Youtube](https://youtu.be/XE0JrkkX93k)
+Link for project video: [Youtube](https://youtu.be/XE0JrkkX93k)  
 Project Report: [Project Report](https://github.com/suiebay/db_project/blob/3c4aa3fac4f09bb4fafb01e764cd06e9091f4a94/ProjectFinalReport.pdf)
